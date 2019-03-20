@@ -1,4 +1,5 @@
 set -x
 set -e
-./packer/packer build ./packer.json
+PATH=${1:-./packer.json}
+./packer/packer build $PATH
 lxc image list
