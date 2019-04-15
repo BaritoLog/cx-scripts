@@ -1,0 +1,28 @@
+.ruby-gemset
+.ruby-version
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+gems.locked
+bin/*
+.bundle/*
+
+builds/
+ubuntu-bionic-18.04-cloudimg-console.log
+SimpleServerMock
+# test kitchen
+.kitchen/
+.kitchen.local.yml
+
+# Chef
+Berksfile.lock
+.zero-knife.rb
+Policyfile.lock.json
+.idea/
